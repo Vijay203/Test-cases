@@ -1,0 +1,95 @@
+Test-cases
+==========
+
+Test case for Registration Module
+                                                                  PROJECT NAME: SHARE synergy Health and Responsibility Exchange											
+											
+											
+                                                                                                                                                                                                                   Test Case Template:											
+											
+Module Name: Registration.                                                                                                                                                  Test Designed By: D.Vijay.               											
+Prepared By:                                                                                                                                                                                                                                  Test Designed Date:     											
+Reviewed By:                                                                                                                                                                                                                                 Test Execution Date:               											
+											
+Test Case Specification											
+											
+Test Case ID	  Test Case Description	     Test Step		Test Data	Expected Result						
+TC-REG-01	Checking the Functionality  	        Step 1	Type Url as www.share.com	Vijay Damacharla	 system Respond like						
+	Of User name Test Box		Click on Sinup Button		Invalid user name Spaces are						
+			Click on User name test box		Not allowed here						
+		        Step 2	Type Url as www.share.com	VijayDamacharla	Valid user name						
+			Click on Sinup Button								
+			Click on User name test box								
+		        Step 3		vijay@123	Invalid user name						
+					It should have Minimum 6-8						
+					characters and special 						
+					characters are not allowed						
+		        Step 4		VIJAYDAMACHARLA	Invalid user name						
+					It should have atleast one						
+					 lower case letter						
+TC-REG-02	Checking the Functionality  	        Step 1	Type Url as www.share.com		 system Respond like						
+	Of Blood Group Drop down		Click on Sinup Button		It is not showing any Blood 						
+	list weather it is working or not		Click on Blood Group Drop Down list		groups Drop down list is not 						
+					Correctly working						
+					Check any Missed blood 						
+					Groups are there						
+TC-REG-03	Checking the Functionality  	        Step 1	Type Url as www.share.com		 system Respond like						
+	Of Gender Drop down		Click on Sinup Button		It is not showing any thing						
+	list weather it is working or not		Click on Gender Down list		That is not working.						
+					check that is working or not.						
+TC-REG-04	Checking the Functionality  	        Step 1	Type Url as www.share.com	26/08/1993	 system Respond like						
+	Of  Date of birth test box		Click on Sinup Button		Valid 						
+			Click on Date of birth test box								
+		        Step 2		8/26/1993	It is showing error message						
+					check the format You have						
+					Eneterd 						
+		        Step 3		26-08-1993	It is showing error message						
+					Check it is allowing special						
+					characters like "-, &" etc..						
+											
+		        Step 4		26/08/1993	it will take valid						
+TC-REG-05	Checking the Functionality  	        Step 1	Type Url as www.share.com	0	 system Respond like						
+	Of  Mobile number test box		Click on Sinup Button		Invalid Number 						
+			Click on Mobile number test box		Check it is accepting when						
+					You are giving all zeros						
+		        Step 2		96862698546	Invalid Number 						
+					Check weather it is taking						
+					more than 10 numbers						
+		        Step 3		9.19686E+11	Invalid Number 						
+					Check it is allowing only						
+					Numerals						
+		        Step 4		272727	Invalid Number 						
+					Check the number like land						
+					line number it is taking or not.						
+					when you are giving with area						
+					code						
+					check proper country code . 						
+					and area code are given or not						
+TC-REG-06	Checking the Functionality  	        Step 1	Type Url as www.share.com		 system Respond like						
+	Of State Drop down		Click on Sinup Button		It is not showing any thing						
+	list weather it is working or not		Click on select State Drop down list		so drop down list is not working						
+		        Step 2			Check it is showing all the 						
+					states or not.						
+TC-REG-07	Checking the Functionality  	        Step 1	Type Url as www.share.com		 system Respond like						
+	Of District Drop down		Click on Sinup Button		It is not showing any thing						
+	list weather it is working or not		Click on select District Drop down list		so drop down list is not working						
+					check it is working or not						
+		        Step 2			Check it is showing all the 						
+					Districts or not						
+TC-REG-08	Checking the Functionality  	        Step 1	Type Url as www.share.com	vijayeee203+3gmail.com	 system Respond like						
+	Of Email id test box		Click on Sinup Button		Invalid Email id						
+			Click on Email id test box		check with out @ symbol.						
+		        Step 2		Vijayeee203@gmail.com	Invalid Email id						
+					check all are in the lower case 						
+					only it will accept						
+		        Step 3		vijay eee203@gmail.com	Invalid Email id						
+					check it is allowing spaces or						
+					 not						
+		        Step 4		ghjsfgjfshgjhgjsk4567739@gmail.com	Invalid Email id						
+					check what is the chatracters						
+					limit and numerals limit						
+		        Step 5		vijayeee203@gmail.com	valid Email id.						
+											
+TC-REG-09	Checking the Functionality  	        Step 1	Type Url as www.share.com								
+	Of Address test box		Click on Sinup Button								
+			Click on Address test box								
